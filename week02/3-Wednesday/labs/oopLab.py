@@ -1,15 +1,29 @@
 
 
 # 1. Create an empty class called "Student"
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+    
+#     def greeting(self):
+#         return f'Good morning {self.name}'
 
 
-# 2. Create 5 students objects (instances of the class "Student") of "Student" types
-
+# # 2. Create 5 students objects (instances of the class "Student") of "Student" types
+# student1 = Student("Ally")
+# student2 = Student("Zach")
+# student3 = Student("Kanny")
+# student4 = Student("Claude")
+# student5 = Student("Veronica")
 
 # 3a. Create a "greeting" method inside of the class "Student" class that
 # takes as a parameter "name". The return of the  method should be
 # "Good morning {name}"
-
+# print(student1.greeting())
+# print(student2.greeting())
+# print(student3.greeting())
+# print(student4.greeting())
+# print(student5.greeting())
 
 # 4. Call the greet  method on each of the students in # 5 passing in a different
 # name argument each time.
@@ -86,3 +100,23 @@
 # Super()
 
 # COMPOSITION
+
+# class Person:
+#     def __init__(self, name, lastName, birthdate, address, email, telephone):
+#         self.name = name
+#         self.lastName = lastName
+#         self.birthdate = birthdate
+#         self.address = address 
+#         self.email = email
+#         self.telephone = telephone
+#         self.friends = []
+#     def print_contact_info(self):
+#         for friend in friends:
+#             print(f"")
+
+# sonny = Person('Sonny', 'doop', '2/2/2005', 'bleh bleh street', 'sonny@hotmail.com', '483-485-4948')
+# jordan = Person('Jordan', 'boop', '3/3/2004', 'blah blah street', 'jordan@aol.com', '495-586-3456')
+# jordan.friends.append('sonny')
+# sonny.friends.append('jordan')
+# print(sonny.print_contact_info())
+# print(jordan.print_contact_info())
