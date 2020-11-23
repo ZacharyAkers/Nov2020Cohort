@@ -10,6 +10,9 @@ planet6 = "Mercury"
 planet7 = "Uranus"
 planet8 = "Venus"
 
+planets = ["Earth", "Jupiter", "Neptune", "Mars", "Saturn", "Mercury", "Uranus", "Venus"]
+print(planets)
+
 # 2. Print out how many elements are in the planet list
 
 
